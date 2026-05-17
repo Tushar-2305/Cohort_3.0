@@ -51,44 +51,91 @@
 .Intro_card {
   height: 85%;
   width: 600px;
-  background-color: rgb(156, 94, 222);
+  background-color: transparent;
   margin: 75px 10px 0 10px;
+  border: none;
+  
 }
 
 .about{
   height: 8%;
   width: 100%;
-  background-color: white;
-  border: 2px solid black;
   display: flex;
   position: relative;
   z-index: 1;
-  /* clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%); */
-  /* border-radius:0 0px 500px 0 ; */
+  border: 0px;
+  
 }
 
 .text{
   height: 100%;
   width: 200px;
-  background-color: black;
-  /* border: 2px solid black; */
-  clip-path: polygon(0 0, 100% 0, 70% 100%, 0 100%);
+  background-color: transparent;
   z-index: 3;
   position: absolute;
+  border-radius: 0 0 30px 0;
+  border: 0px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1{
+  margin: 0 30px 0 5px;
+  font-family: "Cause", cursive;
+  font-weight: 500;
+  font-size: 22px;
+
 }
 
 .wrap{
   height: 100%;
-  width: 470px;
-  background-color: pink;
+  width: 450px;
+  background: #8284d3;
   position: absolute;
-  /* margin-right: 50px; */
   right: 0;
   z-index: 2;
+  clip-path: polygon(15% 0, 100% 0, 100% 100%, 0 100%);
+  border-radius: 0 30px 0 0;
 }
 
 .content{
   height: 92%;
   width: 100%;
-  background-color: red;
+  background: #8284d3;
+  border-radius: 30px 0 30px 30px;
+  border: none;
+  position: relative;
+}
+
+.photo{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 100;
+  right: 0;
+}
+
+.bg_circle{
+  height: 180px;
+  width: 180px;
+  background-color: aqua;
+  border-radius: 50%;
+  border: 10px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner_circle{
+  height: 150px;
+  width: 150px;
+  background-color: #efaeff;
+  border-radius: 50%;
 }
