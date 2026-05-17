@@ -112,8 +112,6 @@
 .photo{
   height: 200px;
   width: 200px;
-  /* background-image: url("https://drive.google.com/file/d/1g-JzkDEkxGjq8SL3gen44GI8TTeTxCi_/view?usp=sharing");
-  background-size: cover; */
   border-radius: 50%;
   border: 2px solid black;
   display: flex;
@@ -150,5 +148,4 @@
   border-radius: 50%;
   position: absolute;
   z-index: 2;
-  background-image: url("Picsart_26-05-17_12-23-46-248.png");
 }
