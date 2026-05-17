@@ -112,6 +112,8 @@
 .photo{
   height: 200px;
   width: 200px;
+  /* background-image: url("https://drive.google.com/file/d/1g-JzkDEkxGjq8SL3gen44GI8TTeTxCi_/view?usp=sharing");
+  background-size: cover; */
   border-radius: 50%;
   border: 2px solid black;
   display: flex;
@@ -122,15 +124,23 @@
   right: 0;
 }
 
+.photo img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
 .bg_circle{
   height: 180px;
   width: 180px;
-  background-color: aqua;
+  background-color: transparent;
   border-radius: 50%;
-  border: 10px solid white;
+  border: 5px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  z-index: 1;
 }
 
 .inner_circle{
@@ -138,4 +148,7 @@
   width: 150px;
   background-color: #efaeff;
   border-radius: 50%;
+  position: absolute;
+  z-index: 2;
+  background-image: url("Picsart_26-05-17_12-23-46-248.png");
 }
