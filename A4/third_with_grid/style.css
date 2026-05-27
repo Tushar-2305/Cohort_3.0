@@ -444,5 +444,24 @@ body {
   font-size: 30px ;
   text-align: center;
   letter-spacing: 10px;
-  /* margin: 0 px 0 0; */
+}
+
+.awards{
+  grid-column:4/5 ;
+  height: 92%;
+  width: 83%;
+  background-color: #ffc267;
+  border-radius:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.award_number{
+  font-size: 25px;
+}
+
+.award_text{
+  color: black;
 }
